@@ -1,4 +1,4 @@
-# Ignore archive and large dataset files
+# Ignore datasets and large files
 *.tgz
 *.tar
 *.zip
@@ -6,5 +6,15 @@
 *.hdf5
 *.npz
 *.pkl
-flower_photos.tgz
 flower_photos/
+flower_photos.tgz
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+# Ignore virtual environment
+venv/
+# Ignore logs           
