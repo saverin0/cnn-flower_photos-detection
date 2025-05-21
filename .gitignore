@@ -1,2 +1,10 @@
+# Ignore archive and large dataset files
+*.tgz
+*.tar
+*.zip
+*.h5
+*.hdf5
+*.npz
+*.pkl
 flower_photos.tgz
-flower_photos.tgz
+flower_photos/
